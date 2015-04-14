@@ -19,3 +19,5 @@ if __name__ == '__main__':
 
 Return index of last substring in a string:
 str.rindex('substring')
+
+DjangoJS exposes a list of site URLs by default at http://localhost:8000/djangojs/init.js
