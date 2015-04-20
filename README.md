@@ -29,3 +29,8 @@ str.rindex('substring')
 ```
 
 DjangoJS exposes a list of site URLs by default at `http://localhost:8000/djangojs/init.js`
+
+Restrict the action of an ng-click in AngularJS based on the state of a setting:
+```
+ng-click="settings.wafflesEnabled && doSomethingWithWaffles()"
+```
