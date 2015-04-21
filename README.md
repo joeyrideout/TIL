@@ -33,3 +33,8 @@ Restrict the action of an ng-click in AngularJS based on the state of a setting:
 ```
 ng-click="settings.wafflesEnabled && doSomethingWithWaffles()"
 ```
+
+Generate a UML diagram of all models in a Django project:
+```
+python manage.py graph_models -g -a -o data_model.png --exclude-models=Whatever
+```
